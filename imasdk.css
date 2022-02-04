@@ -1,0 +1,202 @@
+body {
+  font-family: arial, verdana, sans-serif;
+}
+
+header, footer { text-align:center; width: 100%; }
+
+header {
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+
+label {
+  color: #212121;
+  font: 400 16px/24px Roboto,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+}
+
+#container {
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+}
+
+#tools {
+  border: 1px solid #ccc!important;
+  border-radius: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 40px;
+  margin-right: auto;
+  width: 100%;
+}
+
+#tools div {
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+#tagText{
+  display: inline;
+  margin: 0px 0px 12.7969px;
+  height: 52px;
+  width: 100%;
+  word-break: break-all;
+}
+
+#videoplayer {
+  position: relative;
+  background-color: #000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.95);
+  border: 2px #ccc solid;
+  width: 640px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#content-wrapper {
+  position:relative;
+  top: 0px;
+  left: 0px
+}
+
+#controls {
+  position: relative;
+  height: 50px;
+  margin-top: 7px;
+  margin-left: 40px;
+}
+
+#requestads {
+  position: relative;
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 0.5;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+  color: #000;
+  cursor: pointer;
+  line-height: 0;
+}
+
+#requestads:hover {
+  border: 1px #f00 solid;
+  color: #f00;
+}
+
+#playpause {
+  position: relative;
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 0.5;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+  color: #000;
+  cursor: pointer;
+  line-height: 0;
+}
+
+#playpause:hover {
+  border: 1px #f00 solid;
+  color: #f00;
+}
+
+#fullscreen {
+  position: relative;
+  height: 40px;
+  margin-left: 10px;
+  width: 100px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 0.5;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+  color: #000;
+  cursor: pointer;
+  line-height: 0;
+}
+
+#fullscreen:hover {
+  border: 1px #f00 solid;
+  color: #f00;
+}
+
+#content {
+  overflow: hidden;
+}
+
+#content, #adcontainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 640px;
+  height: 360px;
+}
+
+#console {
+  font-family: courier, monospace;
+  font-size: 12px;
+  height: 200px;
+  width: 630px;
+  padding: 5px;
+  border: 1px #ccc solid;
+  overflow-y: scroll;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#companionDiv, #customClick {
+  width: 728px;
+  height: 90px;
+  margin-top: 10px;
+  border: 1px dashed black
+}
+
+#companionDiv p{
+  font-size: 24px;
+  color: dimgrey;
+  text-align: center;
+  text-shadow: 2px 2px 4px grey;
+
+}
+
+#customClick {
+  background-color: #807F80;
+  display: none;
+  text-align: center;
+}
+
+#customClickTextWrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.urlLink {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
